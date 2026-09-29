@@ -248,7 +248,9 @@ nav .active {
 }
 
 .research-content {
-    padding: 25px;
+    max-width: 1000px;
+    margin: 70px auto;
+    padding: 0 40px;
 }
 
 .research-content h3 {
