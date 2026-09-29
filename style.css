@@ -209,69 +209,10 @@ nav .active {
     padding: 0 40px;
 }
 
-.pub-header {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.pub-header a {
-    color: #666;
-    font-size: 18px;
-    text-decoration: underline;
-}
-
-.research-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 35px;
-    row-gap: 50px;
-}
-
-.research-card {
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    overflow: hidden;
-    transition: 0.3s;
-}
-
-.research-card:hover {
-    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-    transform: translateY(-4px);
-}
-
-.research-card img {
-    width: 50%;
-    height: 320px;
-    object-fit: cover;
-    display: block;
-}
-
-.research-content {
-    padding: 25px;
-}
-
-.research-content h3 {
-    font-size: 1.9rem;
-    line-height: 1.35;
-    color: #222;
-    margin-bottom: 15px;
-    font-weight: 400;
-}
-
-.research-content p {
-    color: #555;
-    line-height: 1.7;
-    margin-bottom: 20px;
-}
-
-.research-figure {
+.research-figure p {
     max-width: 1000px;
     margin: 40px auto;
     text-align: center;
-}
-
-.research-figure img {
     width: 50%;
     height: auto;
     display: block;
