@@ -269,6 +269,26 @@ nav .active {
     margin-bottom: 20px;
 }
 
+.research-figure {
+    max-width: 1000px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.research-figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+}
+
+.research-figure figcaption {
+    margin-top: 12px;
+    color: #666;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
 .journal {
     display: block;
     color: #888;
