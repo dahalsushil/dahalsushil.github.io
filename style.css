@@ -202,56 +202,43 @@ nav .active {
 /* ==========================
    RESEARCH SECTION
 ========================== */
+.research-intro {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
 
-.research {
-    max-width: 1200px;
-    margin: 0 auto 25px;
-    padding: 0 40px;
+.research-text {
+    flex: 1;
+}
+
+.research-text p {
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 25px;
 }
 
 .research-figure {
-    width: 300px;
+    flex: 0 0 280px;
     margin: 0;
     text-align: center;
-    flex-shrink: 0;
 }
 
 .research-figure img {
-    width: 100%;
-    max-width: 300px;
+    width: 280px;
     height: auto;
     display: block;
-    margin: 0 auto;
+    border-radius: 4px;
 }
 
 .research-figure figcaption {
-    margin-top: 12px;
+    margin-top: 10px;
     color: #666;
     font-size: 14px;
-    line-height: 1.5;
 }
-.journal {
-    display: block;
-    color: #888;
-    font-size: 14px;
-    margin-bottom: 20px;
-}
-
-.read-btn {
-    display: inline-block;
-    padding: 10px 18px;
-    border: 1px solid #333;
-    color: #333;
-    text-decoration: none;
-    border-radius: 4px;
-    transition: 0.3s;
-}
-
-.read-btn:hover {
-    background: #333;
-    color: #fff;
-}
-
 
 /* ==========================
    RESPONSIVE
