@@ -209,11 +209,11 @@ nav .active {
     padding: 0 40px;
 }
 
-.research-figure p {
+.research-figure {
     max-width: 1000px;
     margin: 40px auto;
     text-align: center;
-    width: 1000%;
+    width: 100%;
     height: auto;
     display: block;
     border-radius: 4px;
