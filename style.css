@@ -209,13 +209,19 @@ nav .active {
     padding: 0 40px;
 }
 
+.research-figure {
+    width: 300px;
+    margin: 0;
+    text-align: center;
+    flex-shrink: 0;
+}
+
 .research-figure img {
-    width: 50%;
+    width: 100%;
     max-width: 300px;
     height: auto;
     display: block;
     margin: 0 auto;
-    border-radius: 4px;
 }
 
 .research-figure figcaption {
